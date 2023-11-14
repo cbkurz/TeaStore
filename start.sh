@@ -20,7 +20,7 @@ cd tools && ./build_docker.sh >> ../build.txt && cd ..
 
 MY_IP=$1
 BASE_DIR=`pwd`
-MY_FOLDER="$BASE_DIR/kieker-results/"
+MY_FOLDER="$(BASE_DIR)/kieker-results/"
 
 set -e
 if [ -d $MY_FOLDER ]
